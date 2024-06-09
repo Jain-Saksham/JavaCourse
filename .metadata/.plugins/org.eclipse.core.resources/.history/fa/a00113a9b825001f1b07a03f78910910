@@ -1,0 +1,12 @@
+package com.sakshamjain24.oops;
+
+public class MotorBike {
+	
+	int speed;
+
+	void start(String name) {
+		System.out.printf("%s start", name);
+		System.out.println();
+
+	}
+}

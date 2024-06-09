@@ -1,0 +1,23 @@
+package com.sakshamjain24.loops;
+
+public class MyNumber {
+
+	private int number;
+
+	public MyNumber(int number) {
+		this.number = number;
+	}
+
+	public boolean isPrime() {
+		int countDiv = 0;
+
+		for (int i = 2; i <= number; i++) {
+			if (number % 2 == 0)
+				countDiv++;
+		}
+		if (countDiv == 1)
+			return true;
+		return false;
+	}
+
+}

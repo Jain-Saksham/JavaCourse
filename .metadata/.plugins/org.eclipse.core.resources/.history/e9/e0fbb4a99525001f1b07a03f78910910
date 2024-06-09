@@ -1,0 +1,19 @@
+package com.sakshamjain24.firstjavaproject;
+
+public class MultiplicationTable {
+	
+	void printTable(int num) {
+		for(int i=1;i<=10;i++) {
+			System.out.printf("%d x %d = %d", num, i, num*i);
+			System.out.println();
+		}
+	}
+	public static void main(String[] args) {
+		int num=5;
+		
+		MultiplicationTable obj = new MultiplicationTable();
+		obj.printTable(num);
+
+	}
+
+}

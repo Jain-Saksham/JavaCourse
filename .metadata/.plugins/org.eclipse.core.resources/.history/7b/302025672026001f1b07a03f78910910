@@ -1,0 +1,10 @@
+package com.sakshamjain24.primitiveDataTypes;
+
+public class SimpleInterestCalculatorRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

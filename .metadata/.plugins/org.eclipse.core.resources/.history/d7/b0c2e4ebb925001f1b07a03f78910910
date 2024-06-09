@@ -1,0 +1,20 @@
+package com.sakshamjain24.oops;
+
+public class MotorBikeRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MotorBike ducati = new MotorBike();
+		MotorBike honda = new MotorBike();
+
+//		ducati.start("Ducati");
+//		honda.start("Honda");
+
+		ducati.setSpeed(100);
+		honda.setSpeed(80);
+		
+		ducati.getSpeed();
+		honda.getSpeed();
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.sakshamjain24.oops;
+
+public class MotorBike {
+	void start(String name) {
+		System.out.printf("%s start", name);
+	}
+}

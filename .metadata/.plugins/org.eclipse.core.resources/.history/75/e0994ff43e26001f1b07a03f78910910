@@ -1,0 +1,14 @@
+package loops;
+
+public class MyNumber {
+
+	public MyNumber(int i) {
+
+	}
+
+	public boolean isPrime() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
